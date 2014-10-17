@@ -117,7 +117,7 @@ function handleInteractions(){
 if (player.object.GetCenterPosition().y > canvasHeight){
     player.object.SetCenterPosition(new b2Vec2(20,0),0)
 }   
-else if (player.object.GetCenterPosition().x > canvasWidth-450){
+else if (player.object.GetCenterPosition().x > canvasWidth){
     showWin();
 	console.log("ye?");
 

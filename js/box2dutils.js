@@ -114,8 +114,8 @@ function createGround(world) {
  
 function createBall(world, x, y) {
     var ballSd = new b2CircleDef();
-    ballSd.density = 1.0;
-    ballSd.radius = 20;
+    ballSd.density = 1;
+    ballSd.radius = 100;
     ballSd.restitution = 1.0;
     ballSd.friction = 0;
     var ballBd = new b2BodyDef();

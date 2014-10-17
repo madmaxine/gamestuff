@@ -39,7 +39,7 @@ function initGame(){
      
     // create player ball
     var ballSd = new b2CircleDef();
-    ballSd.density = 0.1;
+    ballSd.density = .1;
     ballSd.radius = 12;
     ballSd.restitution = 0.5;
     ballSd.friction = 1;
